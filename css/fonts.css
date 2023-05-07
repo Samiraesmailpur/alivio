@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Avenir Black';
+  font-display: swap;
+  src: local('O'), url('../fonts/Avenir-Black.woff') format('woff'),
+    url('../fonts/Avenir-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Georgia Regular';
+  font-display: swap;
+  src: local('O'), url('../fonts/Georgia-Regular.woff') format('woff'),
+    url('../fonts/Georgia-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Georgia Bold';
+  font-display: swap;
+  src: local('O'), url('../fonts/Georgia-Bold.woff') format('woff'),
+    url('../fonts/Georgia-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato Medium';
+  font-display: swap;
+  src: local('O'), url('../fonts/Lato-Medium.woff') format('woff'),
+    url('../fonts/Lato-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato Semibold';
+  font-display: swap;
+  src: local('O'), url('../fonts/Lato-SemiBold.woff') format('woff'),
+    url('../fonts/Lato-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
