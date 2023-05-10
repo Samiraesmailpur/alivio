@@ -104,8 +104,11 @@
             <p class="story__text">See how well Alivio works in a real customer’s life.</p>
             <button class="story__button" type="button">Let’s get started</button>
           </div>
-          <div>
+          <div class="story__video">
             <img class="story__image" src="./assets/video.png" alt="video" width="895px" />
+            <svg class="story__icon" width="80px" height="80px">
+              <use href="./assets/svg/symbol-defs.svg#icon-video "></use>
+            </svg>
           </div>
         </div>
       </section>
@@ -141,21 +144,57 @@
     <footer class="footer">
       <div class="footer__container container">
         <div class="footer__flex-container">
-          <p class="footer__logo">Alivio</p>
-          <ul class="footer-list">
-            <li class="footer-list__item">
-              <a class="footer-list__link" href="">Why Alivio</a>
+          <div class="footer__nav-container">
+            <p class="footer__logo">Alivio</p>
+            <ul class="footer-list">
+              <li class="footer-list__item">
+                <a class="footer-list__link" href="">Why Alivio</a>
+              </li>
+              <li class="footer-list__item">
+                <a class="footer-list__link" href="">Solutions</a>
+              </li>
+              <li class="footer-list__item">
+                <a class="footer-list__link" href="">Community</a>
+              </li>
+              <li class="footer-list__item">
+                <a class="footer-list__link" href="">Pricing</a>
+              </li>
+            </ul>
+          </div>
+          <ul class="social-list">
+            <li class="social-list__item">
+              <a class="social-list__link" href="">
+                <svg class="social-list__icon" width="11px" height="23px">
+                  <use href="./assets/svg/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
             </li>
-            <li class="footer-list__item">
-              <a class="footer-list__link" href="">Solutions</a>
+            <li class="social-list__item">
+              <a class="social-list__link" href="">
+                <svg class="social-list__icon" width="32px" height="29px">
+                  <use href="./assets/svg/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="footer-list__item">
-              <a class="footer-list__link" href="">Community</a>
-            </li>
-            <li class="footer-list__item">
-              <a class="footer-list__link" href="">Pricing</a>
+            <li class="social-list__item">
+              <a class="social-list__link" href="">
+                <svg class="social-list__icon" width="32px" height="24px">
+                  <use href="./assets/svg/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
           </ul>
+          <div class="footer-app">
+            <p class="footer-app__text">Discover our solutions</p>
+            <div class="footer-app__box">
+              <a class="footer-app__link" href="">
+                <img class="footer-app__image" src="./assets/google-play.png" alt="GooglePlay" />
+              </a>
+              <a class="footer-app__link" href="">
+                <img class="footer-app__image" src="./assets/play-store.png" alt="PlayStore" />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
