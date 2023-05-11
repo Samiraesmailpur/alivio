@@ -381,6 +381,7 @@ img {
 
 .product__bg {
   position: relative;
+  margin-right: 10px;
 }
 
 .card {
